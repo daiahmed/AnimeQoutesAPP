@@ -1,0 +1,45 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Group for main items with single checkable behavior -->
+    <group android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/nav_anime_list"
+            android:icon="@drawable/baseline_collections_24"
+            android:title="Anime List" />
+
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/baseline_login_24"
+            android:title="LOGIN"
+            
+            />
+
+        <item
+            android:id="@+id/nav_register"
+            android:icon="@drawable/baseline_app_registration_24"
+            android:title="Register" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/baseline_favorite_24"
+            android:title="Favourite" />
+
+        <item
+            android:id="@+id/nav_aboutus"
+            android:icon="@drawable/baseline_info_24"
+            android:title="About Us" />
+    </group>
+
+    <!-- Section with "Communicate" title -->
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/baseline_share_24"
+                android:title="Share" />
+        </menu>
+    </item>
+
+</menu>

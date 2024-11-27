@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/black">
+
+    <ImageView
+        android:id="@+id/nav_header_logo"
+        android:layout_width="420dp"
+        android:layout_height="171dp"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="nav_header_logo_desc"
+        android:src="@drawable/splash_screen_pic" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_margin="3dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="ANIME QOUTES"
+        android:textColor="#FFCDD2"
+
+        android:textSize="17dp"
+        android:textStyle="bold|italic" />
+
+</LinearLayout>
